@@ -15,7 +15,6 @@ body {
 
   /*background: color image repeat position/size  - unica propriedade  */
   background: var(--bg-url) no-repeat top center/cover;
-  cursor: url("./assets/moon-stars.svg");
 }
 
 /* config modo claro/escuro */
@@ -178,14 +177,12 @@ footer {
   transform: translateY(-50%);
 
   cursor: pointer;
-  
 }
 
 #switch {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 #switch span {
@@ -200,5 +197,29 @@ footer {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
-  
+}
+
+#sobre {
+  margin: auto;
+  width: 45%;
+  height: 735px;
+
+  padding: 16px 24px;
+
+  background: rgba(56, 23, 74, 0.251);
+
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+
+  position: absolute;
+  right: 0;
+  font-size: 18px;
+}
+
+#sobre img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px; /* Espaçamento entre a imagem e o texto */
 }

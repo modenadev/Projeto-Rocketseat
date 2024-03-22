@@ -9,10 +9,10 @@ function toggleMode() {
   //substituir img
   if (html.classList.contains("light")) {
     //light mode
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/avatar ruan-dark.png")
   } else {
     //darkmode
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/avatar ruan.png")
   }
 
   if (html.classList.contains("light")) {
