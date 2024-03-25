@@ -155,13 +155,15 @@ footer {
 #switch {
   position: relative;
   width: 64px;
-
   margin: 4px auto;
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in 0.2s forwards;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch button {
@@ -180,6 +182,7 @@ footer {
   transform: translateY(-50%);
 
   cursor: pointer;
+  animation: slide-back 0.2s;
 }
 
 #switch {
@@ -236,5 +239,25 @@ footer {
 
   .light {
     --bg-url: url(./assets/bg-dektop-light.jpg);
+  }
+}
+
+/* animation */
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
