@@ -207,20 +207,19 @@ footer {
 
 #sobre {
   margin: auto;
-  width: 45%;
+  width: 50%;
   height: 735px;
 
   padding: 16px 24px;
 
-  background: rgba(56, 23, 74, 0.251);
+  background: rgba(56, 23, 74, 0.267);
 
-  border-radius: 8px;
+  border-radius: 25%;
   text-decoration: none;
   font-weight: 500;
 
-  position: absolute;
-  right: 0;
-  font-size: 18px;
+  position: left;
+  font-size: 25px;
 }
 
 #sobre img {
